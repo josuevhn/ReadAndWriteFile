@@ -1,0 +1,10 @@
+﻿Inicio de archivo!
+
+Hola, esta es la tercera línea.
+
+Esta es la quinta línea.
+La sexta!
+
+La octava línea!
+
+...fín de archivo!
