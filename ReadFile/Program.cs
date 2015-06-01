@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+// Libreria necesaria para utilizar StreamReader.
 using System.IO;
 
 namespace ReadFile
@@ -13,35 +14,40 @@ namespace ReadFile
         static void Main(string[] args)
         {
 
+            // Creamos una instancia de StreamReader.
             StreamReader myReader = new StreamReader("Files/myfile.txt");
 
-            // This variable will store each line of the file.
+            // Esta variable almacenará cada línea del archivo.
             String line = "";
 
-            // An empty line at the beginning of the output.
+            // Línea en blanco al inicio de la salida en pantalla.
             Console.WriteLine();
 
+            // Iteramos sobre cada línea del archivo hasta llegar al final del mismo.
             while(line != null)
             {
 
+                // Leemos la línea a la que apunta nuestro objeto myReader.
                 line = myReader.ReadLine();
 
+                // Comprobamos que no hemos llegado al final del archivo.
                 if(line != null)
                 {
 
+                    // Imprimimos la línea en pantalla.
                     Console.WriteLine(line);
 
                 } // if
 
             } // while
 
-            // Clossing the stream.
+            // Cerramos el flujo al arhcivo.
             myReader.Close();
 
-            // An empty line at the end of the output.
+            // Línea en blanco al final de la salida en pantalla.
             Console.WriteLine();
 
-            // Wait for the user to press any key.
+            // Esperamos a que el usuario presione cualquier tecla.
             Console.ReadLine();
 
         } // Main
