@@ -1,2 +1,4 @@
-# ReadFile
-How to read the data contained in a file, using the C# programming language.
+# ReadAndWriteFile
+Una entre las varias formas de leer y escribir en un archivo de texto, usando el lenguaje de programación C#.
+
+Este código es parte del sitio [WiseRatel](http://www.wiseratel.com) y específicamente del artículo [C# - Leer y Escribir Archivo de Texto](http://www.wiseratel.com/csharp-leer-y-escribir-archivo-de-texto).

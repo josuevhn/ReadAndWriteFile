@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 // Libreria necesaria para utilizar StreamReader y StreamWriter.
 using System.IO;
 
-namespace ReadFile
+namespace ReadAndWriteFile
 {
     class Program
     {
@@ -79,4 +79,4 @@ namespace ReadFile
 
     } // Program
 
-} // ReadFile
+} // ReadAndWriteFile
