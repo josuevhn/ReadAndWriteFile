@@ -17,7 +17,7 @@ namespace ReadAndWriteFile
             // Leer Archivo
 
             // Creamos una instancia de StreamReader.
-            using (StreamReader myReader = new StreamReader("Files/myfile.txt"))
+            using (StreamReader streamReader = new StreamReader("Files/myfile.txt"))
             {
 
                 // Esta variable almacenará el texto a escribir.
@@ -37,7 +37,7 @@ namespace ReadAndWriteFile
                 {
 
                     // Leemos la línea a la que apunta nuestro objeto myReader.
-                    line = myReader.ReadLine();
+                    line = streamReader.ReadLine();
 
                     // Imprimimos la línea en pantalla.
                     Console.WriteLine(line);
